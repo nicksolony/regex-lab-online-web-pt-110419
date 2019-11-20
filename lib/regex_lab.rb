@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
 
-word.match(/\b[AEIOUaeiou][a-z]*\b/) != nil? true : false
+word.match(/\b[AEIOUaeiou][a-z]*\b/) ? true : false
 
 end
 
